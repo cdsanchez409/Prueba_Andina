@@ -1,3 +1,4 @@
+
 public class funcion {
 
 	static int potencia(int x, int y){
@@ -23,3 +24,15 @@ public class funcion {
 		return pot;
 		
 	}
+	
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+         
+		int num=potencia(2,4);
+		 System.out.println(num);
+		
+	}
+
+}
