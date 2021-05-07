@@ -1,0 +1,25 @@
+public class funcion {
+
+	static int potencia(int x, int y){
+		 int r,con,pot=0;
+         con=x;
+         
+         for(int i=1;i<=y;i++) {
+       	  r=0;
+       	  for(int j=1;j<=x;j++) {
+           	r=r+con;  
+           	
+           	  
+           	  
+             }
+       	  pot=con;
+       	  con=r;
+       	  
+         }
+		
+		
+		
+		
+		return pot;
+		
+	}
